@@ -1,0 +1,356 @@
+.navbar{
+    background-color: #14023e !important;
+    border-bottom: 2px solid #ebd263;
+    padding:0px !important;
+}
+button.navbar-toggler.collapsed {
+    border: 1px solid transparent !important;
+    padding: 5px !important;
+}
+button.navbar-toggler{
+    border: none !important;
+    padding: 5px !important;
+}
+.fa-bars {
+    color: rgb(223, 223, 223);
+    font-size: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+.nav-link{
+    color: #ffffff !important;
+    font-family: nav;
+    transition: 0.3s;
+}
+.nav-link:hover{
+     color:  #ebd263 !important;
+}
+
+
+
+/*section1*/
+.bg-smg{
+    margin-top:62px;
+    background-image: url("intro-bg.jpg");
+    min-height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 150px;
+}
+.padding-header{
+    padding-top: 200px;
+    font-size: 60px;
+    font-family: taha;
+    letter-spacing: 6px;
+    padding-bottom: 50px;
+
+}
+.bg-taha{
+    background-color: #fff;
+}
+.text-taha{
+    color: #14023e;
+}
+.btn-taha{
+     border-color:#fff !important;
+     background-color: transparent;
+     color:#fff ;
+}
+.btn-taha:hover{
+    background-color: #fff;
+    color:#14023e ;
+}
+
+/* section 2*/
+.header1{
+    font-family:taha;
+    padding-top:15px;
+  
+}
+.layer1{
+    background-color:#14023e;
+    
+}
+.text-taha1{
+    color: #961a50;
+}
+/* section 5*/
+.r1{
+    color:#bfc2c2
+}
+.cp{
+    margin-top: 20px;
+}
+.lh {
+    line-height: 12px;
+}
+.icon-size{
+    font-size: 50px;
+}
+.heig{
+    min-height: 300px;
+}
+.hover-1:hover{background-color: #14023e;color: #fff !important;transform:scale(1.1) ;}
+.hover-1:hover i{color: #fff !important;}
+.hover-1:hover h3{color: #fff !important;}
+
+.hover-2:hover{background-color: #14023e;color: #fff !important;transform:scale(1.1) ;}
+.hover-2:hover i{color: #fff !important;}
+.hover-2:hover h3{color: #fff !important;}
+
+.hover-3:hover{background-color: #14023e;color: #fff !important;transform:scale(1.1) ;}
+.hover-3:hover i{color: #fff !important;}
+.hover-3:hover h3{color: #fff !important;}
+
+.hover-4:hover{background-color: #14023e;color: #fff !important;transform:scale(1.1) ;}
+.hover-4:hover i{color: #fff !important;}
+.hover-4:hover h3{color: #fff !important;}
+
+.hover-5:hover{background-color: #14023e;color: #fff !important; transform:scale(1.1) ;}
+.hover-5:hover i{color: #fff !important;}
+.hover-5:hover h3{color: #fff !important;}
+
+.hover-6:hover{background-color: #14023e;color: #fff !important; transform:scale(1.1) ;}
+.hover-6:hover i{color: #fff !important;}
+.hover-6:hover h3{color: #fff !important;}
+.card{border: 1px solid #14023e;}
+.card-body{transition:0.5s;}
+.card-body h3{transition:0.5s;}
+.card-body i{transition:0.5s;}
+
+/* .................   */
+.contact{
+    padding-top: 150px;
+    padding-left: 20px;
+    
+    font-size:50px;                         
+}
+.contact h1{
+    font-family: taha;
+}
+hr{
+    background-color:#14023e;
+}
+.big{
+    font-size:230px;
+    color:#14023e;
+}
+.small-icon{
+    font-size:20px;
+    color:#961a50;
+}
+.less-line-height{
+    line-height: 3.5rem;
+}
+.tt{
+    text-transform: lowercase !important;
+}
+.fh{
+    color: black;
+}
+.fh:hover{
+    color: blue;
+}
+.th:hover{
+    color: rgb(27, 131, 216);
+}
+.li:hover{
+    color: rgb(0, 173, 173);
+}
+.bgd{
+    background-color: #ffffff00;
+    width: 100%;
+    padding: 30px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+.message-box-padding{
+    padding:10px;
+}
+.name{
+    background-color:#fff;
+    width: 90%;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+    font-style: ;
+    padding: 10px 20px;
+    box-shadow:inset 2px 2px 5px#3b3b3b;
+}
+.name::placeholder{
+    color: rgb(116, 0, 0);
+    font-style: italic;
+    
+}
+.sbtn{
+    width: 30%;
+    border-radius: 6px;
+    background-color:transparent;
+    border: 1px solid #14023e;
+    color: #14023e ;
+}
+.sbtn:hover{
+    width: 30%;
+    border-radius: 6px;
+    background-color:#14023e;
+    border: 1px solid #14023e;
+    color: #fff;
+    font-weight: bold;
+    
+}
+/* footer  */
+.footer{
+    background-color: #e2e2e2;
+    color: #4e0007;
+    padding: 14px 0px 1px 0px;
+}
+.footer p {
+    font-size: 14px;
+}
+.footer a {
+    color: #4e0007;
+    font-style: bold;
+}
+
+
+
+
+
+
+
+@font-face{
+    src:url( Vogue.ttf);
+    font-family: taha;
+    
+    font-size: large;
+    font-weight:bolder;
+}
+
+@font-face{
+    src:url( 12.ttf);
+    font-family: nav;
+
+}
+
+
+
+/* media
+*/
+@media screen and (max-width:767px){
+  .b{
+      text-align: center !important;
+  }
+ 
+    }
+ @media screen and (min-width:767px){
+        .bgd{
+            width: 400px;   
+            margin: auto;     }
+       
+          }
+    
+
+@media screen and (max-width:575px){
+    .padding-header{
+        font-size: 40px;
+        padding-top:100px;
+        padding-bottom: 30px;
+    }
+    .bg-smg{
+             max-height: 400px !important;
+    }
+    .header1{
+        font-size: 40px;
+       
+        
+    }
+    
+     
+}
+@media screen and (max-width:361px){
+    .padding-header{
+        font-size: 30px;
+        padding-bottom: 20px;
+       
+    }
+    .header1{
+        font-size: 30px;
+        
+    }
+    .bg-smg{
+        padding-top: 50px !important;
+    }
+    .sbtn{
+        width: 100%;}
+    .sbtn:hover{
+            width: 100%;}
+        .name{
+            width: 100%;} 
+     
+}
+@media screen and (max-width:296px){
+    .padding-header{
+        font-size: 25px;
+        padding-bottom: 25px;
+    }
+    .header1{
+        font-size: 25px;
+       
+        }
+}
+::-webkit-scrollbar{
+    width:0px;
+    
+}
+#scrollpath{
+    position: fixed;
+    top:0px;
+    right: 0px;
+    width: 10px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    }
+#progressbar{
+    position: fixed;
+    top:0px;
+    right: 0px;
+    width: 5px;
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+    0%,100%
+    {
+        filter:hue-rotate(0deg);
+    }
+    50%
+    {
+        filter:hue-rotate(360deg);
+    }
+}
+#progressbar:before
+{
+    content:'';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    filter: blur(10px);
+}
+#progressbar:after
+{
+    content:'';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    filter: blur(30px);
+}
+#961a50
